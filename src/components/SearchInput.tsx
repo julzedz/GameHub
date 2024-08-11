@@ -6,7 +6,7 @@ interface Props {
   onSearch: (searchText: string) => void;
 }
 
-const SearchInput = ({ onSearch }: Props ) => {
+const SearchInput = ({ onSearch }: Props) => {
   const ref = useRef<HTMLInputElement>(null);
   return (
     <form
